@@ -27,6 +27,12 @@ $size: 15px;
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
     background-size: 30%, 60%;
+    position: relative;
+
+    .attribution {
+      position: absolute;
+      top: 80%;
+    }
   }
 }
 
@@ -38,7 +44,10 @@ $size: 15px;
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
     background-size: 100%, 60%;
-  }
 
-  
+    .attribution {
+      position: absolute;
+      top: 98%;
+    }
+  }
 }

@@ -19,6 +19,11 @@
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
     background-size: 30%, 60%;
+    position: relative;
+  }
+  body .attribution {
+    position: absolute;
+    top: 80%;
   }
 }
 @media (max-width: 767px) {
@@ -28,6 +33,10 @@
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
     background-size: 100%, 60%;
+  }
+  body .attribution {
+    position: absolute;
+    top: 98%;
   }
 }
 @media (max-width: 1920px) {
@@ -136,6 +145,7 @@
   .container {
     max-width: 300px;
     width: 100%;
+    padding: 50px 0;
   }
   .container .container-top {
     display: flex;
