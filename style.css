@@ -21,7 +21,7 @@
     background-size: 30%, 60%;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 767px) {
   body {
     font-family: "league-spartan", sans-serif;
     background: url(/socialproofsection/asset/images/bg-pattern-top-mobile.svg), url(/socialproofsection/asset/images/bg-pattern-bottom-mobile.svg);
@@ -132,7 +132,7 @@
     height: 30px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 767px) {
   .container {
     max-width: 300px;
     width: 100%;
@@ -144,12 +144,13 @@
     margin-bottom: 50px;
   }
   .container .container-top .container-left {
-    width: 90%;
+    width: 100%;
+    text-align: center;
   }
   .container .container-top .container-left .title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: hsl(300, 43%, 22%);
-    width: 80%;
+    width: 100%;
     margin-bottom: 20px;
   }
   .container .container-top .container-left .text-title {
