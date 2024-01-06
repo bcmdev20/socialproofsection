@@ -1,0 +1,226 @@
+// container TOP/LEFT
+@media (max-width: 1920px) {
+  .container {
+    max-width: 900px;
+    .container-top {
+      display: flex;
+      margin-bottom: 50px;
+      .container-left {
+        width: 50%;
+      }
+      .title {
+        font-size: 3rem;
+        color: $color4;
+        width: 80%;
+        margin-bottom: 20px;
+      }
+      .text-title {
+        color: $color1;
+        font-size: 15px;
+        font-weight: 500;
+        width: 80%;
+      }
+
+      //   CONTAINER RIGHT
+      .container-right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        .notice1-container {
+          display: flex;
+          width: 100%;
+          justify-content: flex-start;
+        }
+        .notice2-container {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        .notice3-container {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+        }
+        .notice {
+          width: 350px;
+          background: $color2;
+          padding: 10px 20px;
+          gap: 20px;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+        }
+
+        p {
+          font-size: 15px;
+          color: $color4;
+          font-weight: 700;
+        }
+        img {
+          width: 15px;
+        }
+      }
+    }
+
+    //   CONTAINER BOTTOM
+
+    .container-bottom {
+      display: flex;
+      color: $color3;
+      gap: 15px;
+      font-size: 15px;
+      font-weight: 500;
+      height: 220px;
+      .name-container {
+        display: flex;
+        gap: 20px;
+      }
+
+      .verified {
+        color: $color5;
+        font-weight: 400;
+      }
+      .card1,
+      .card2,
+      .card3 {
+        background: $color4;
+        padding: 20px;
+        width: 33%;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex: 1;
+        height: 190px;
+      }
+      .card2 {
+        align-self: center;
+      }
+      .card3 {
+        align-self: flex-end;
+      }
+      img {
+        border-radius: 1000px;
+        height: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) { 
+  .container {
+    max-width: 300px;
+    width: 100%;
+
+    .container-top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 50px;
+      .container-left {
+        width: 90%;
+        .title {
+          font-size: 3rem;
+          color: $color4;
+          width: 80%;
+          margin-bottom: 20px;
+        }
+        .text-title {
+          color: $color1;
+          font-size: 15px;
+          font-weight: 500;
+          width: 80%;
+        }
+      }
+      
+      
+
+      //   CONTAINER RIGHT
+      .container-right {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        .notice1-container {
+          display: flex;
+          width: 100%;
+          justify-content: flex-start;
+        }
+        .notice2-container {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        .notice3-container {
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+        }
+        .notice {
+          width: 350px;
+          background: $color2;
+          padding: 10px 20px;
+          gap: 20px;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+        }
+
+        p {
+          font-size: 15px;
+          color: $color4;
+          font-weight: 700;
+        }
+        img {
+          width: 15px;
+        }
+      }
+    }
+
+    //   CONTAINER BOTTOM
+
+    .container-bottom {
+      display: flex;
+      color: $color3;
+      gap: 15px;
+      font-size: 15px;
+      font-weight: 500;
+      height: 220px;
+      .name-container {
+        display: flex;
+        gap: 20px;
+      }
+
+      .verified {
+        color: $color5;
+        font-weight: 400;
+      }
+      .card1,
+      .card2,
+      .card3 {
+        background: $color4;
+        padding: 20px;
+        width: 33%;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex: 1;
+        height: 190px;
+      }
+      .card2 {
+        align-self: center;
+      }
+      .card3 {
+        align-self: flex-end;
+      }
+      img {
+        border-radius: 1000px;
+        height: 30px;
+      }
+    }
+  }
+}
